@@ -207,7 +207,7 @@ const Dashboard = () => {
                       )}
 
                       <div className="mt-4 pt-4 border-t flex justify-between items-center">
-                        <span className="text-2xl font-bold text-primary">${booking.total_price}</span>
+                        <span className="text-2xl font-bold text-primary">₹{booking.total_price}</span>
                         <Button variant="outline" size="sm">View Details</Button>
                       </div>
                     </Card>

@@ -39,7 +39,7 @@ export default function Header({ LinkComponent = RouterLink, links = null }) {
           <SmartLink to="/" className="flex items-center gap-3">
             <img src={logo} alt="" className="h-8 w-8 rounded" />
             <span className="text-xl font-bold tracking-tight text-gray-900">
-              NomadsOnWheels
+              Wander Roots
             </span>
           </SmartLink>
 

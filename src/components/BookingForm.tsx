@@ -103,7 +103,7 @@ const BookingForm = ({ userId, onComplete }: BookingFormProps) => {
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="total_price">Total Price ($)</Label>
+          <Label htmlFor="total_price">Total Price (₹)</Label>
           <Input id="total_price" name="total_price" type="number" step="0.01" min="0" required />
         </div>
       </div>

@@ -10,19 +10,20 @@ import tourZiro from "@/assets/Ziro Valley.png";
 import tourKaziranga from "@/assets/kaziranga.png";
 import tourMajuli from "@/assets/majuli.png";
 import tourDzukou from "@/assets/dvally.png";
+import Nasima from "@/assets/narsima.png";
 
 
 const tours = [
-  {
+  { 
     id: 1,
-    name: "Tawang Himalayan Expedition",
-    image: tourTawang,
-    destination: "Tawang, Arunachal Pradesh",
-    duration: "7 Days",
-    groupSize: "8-12",
-    price: "₹22,499",
+    name: "Narasimha Parvatha Trek",
+    image: Nasima, // Replace with your image import
+    destination: "Agumbe, Karnataka",
+    duration: "2 Days / 2 Nights",
+    groupSize: "6-10",
+    price: "₹4,099",
     category: "Adventure",
-    description: "Ride through high-altitude passes, monasteries, prayer flags and snow-laden landscapes."
+    description: "A forest trail through dense Western Ghats, misty peaks, and raw untouched landscapes."
   },
   {
     id: 2,
@@ -80,6 +81,7 @@ const tours = [
     description: "Trek across grass-covered valleys, floating clouds and breathtaking ridgelines."
   }
 ];
+
 
 const ToursPage = () => {
   return (

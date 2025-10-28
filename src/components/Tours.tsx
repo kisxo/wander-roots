@@ -1,4 +1,5 @@
 import Shillong from "@/assets/Shillong & Cherrapunji Escape.png";
+import Nasima from "@/assets/narsima.png";
 import tawangRoad from "@/assets/tawang_road.png";
 import tourZiro from "@/assets/Ziro Valley.png";
 import { Button } from "@/components/ui/button";
@@ -6,11 +7,11 @@ import { Clock, Users } from "lucide-react";
 
 const tours = [
   {
-    title: "Shillong & Cherrapunji Escape",
-    image: Shillong, // Replace with your image import
-    duration: "4 days",
+    title: "Narasimha Parvatha Trek",
+    image: Nasima, // Replace with your image import
+    duration: "2 days / 2 nights",
     groupSize: "Small group",
-    price: "From ₹12,999"
+    price: "From ₹4,099"
   },
   {
     title: "Tawang Himalayan Road Trip",

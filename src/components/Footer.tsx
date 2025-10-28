@@ -72,10 +72,10 @@ const Footer = () => {
             <div className="flex items-center gap-2">
              
 <img src={logo} alt=""className="h-8 w-8 text-primary rounded"  />
-              <span className="font-bold">NomadsOnWheels</span>
+              <span className="font-bold">Wander Roots</span>
             </div>
             <p className="text-sm text-background/60">
-              © 2025 NomadsOnWheels. All rights reserved.
+              © 2025 WanderRoots. All rights reserved.
             </p>
           </div>
         </div>
